@@ -59,6 +59,12 @@ a:visited {
 	color: #5f8d4e;
 }
 
+main img {
+	max-height: 20rem;
+	border-radius: 2rem; 
+	margin: 0 auto; 
+}
+
 table th {
 	padding: 1rem;
 	background-color: #f2f2f2;
