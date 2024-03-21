@@ -1,0 +1,12 @@
+# exclude images
+img/*
+*.jpg
+*.jpeg
+
+# exclude python venv
+venv
+venv/
+
+# exclude dev references
+references
+references/
