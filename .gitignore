@@ -1,0 +1,16 @@
+# exclude images
+img/*
+*.jpg
+*.jpeg
+
+# exclude python venv
+venv
+venv/
+
+# exclude dev references
+reference
+reference/
+
+# exclude DS_Store and swapfiles
+*.DS_Store
+*.swp
