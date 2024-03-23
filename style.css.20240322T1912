@@ -175,7 +175,7 @@ figcaption {
 	margin-top:-3.0rem;
 	border: 0.5px solid #999;
 	border-top: none;
-	padding: 0.6rema
+	padding: 0.6rem;
 }
 
 
@@ -196,7 +196,12 @@ p {
 
 menu {
 	border: 1px solid blue;
-	gap: 0.5rem;
+	min-height: 24rem;
+	overflow-y: wrap;
+	display: grid;
+	flex-wrap: wrap;
+	grid-template-columns: repeat(auto-fill, minmax (12rem, 1fr));
+	gap: 1rem;
 }
 
 ul { 
@@ -207,6 +212,8 @@ menu li {
 	width: fit-content;
 	color: red;
 	border: 1px solid red;
+	flex: 1 0 25%;
+	box-sizing: border-box;
 }
 
 #home-welcome, #home-latest, #home-years, #home-index, #home-gallery {
@@ -216,6 +223,7 @@ menu li {
 	display: inline-block;
 	vertical-align: top;
 	max-width: 40%;
+	overflow: auto;
 }
 
 #home-welcome {
@@ -226,6 +234,8 @@ menu li {
 }
 
 #home-years {
+	height: 16rem;
+	max-height: 24rem;
 }
 
 #home-index {

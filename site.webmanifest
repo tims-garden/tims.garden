@@ -1,0 +1,9 @@
+{
+  "name": "Tim's Garden",
+  "theme_color": "#015c10",
+  "background_color": "#c1c2ad",
+  "display": "browser",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"
+}:

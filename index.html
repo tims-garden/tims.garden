@@ -20,48 +20,83 @@
 
     <link rel="manifest" href="site.webmanifest">
     <meta name="theme-color" content="#fafafa">
+    <!--- WEB FONTS --->
   </head>
-
   <body>
     <!------------------------------------------------------------------>
-    
+
     <header>
       <h1><a href="index.html" style="color: #000; text-decoration:none;">Tim's Garden</a></h1>
-    <p>by Tim Desrochers, since 2012</p>
-    <p><em>Winner, Chicago Excellence in Gardening Awards (2022)</em></p>
-    
+      <!--- <h4 style="margin-top: -2em;"><em>Since 2010</em></h4>--->
+
     </header>
 
 
     <!-------->
     <main>
+
+      <figure style="float: right;">
+        <img src="img/hero.jpg" style="" alt="photo of a lush garden on a city corner">
+        <figcaption>
+          Winner, Chicago Excellence in Gardening Awards (2022)
+        </figcaption>
+      </figure>
       
-      <img src="img/hero.jpg" style="max-height: 16rem; align: right; border-radius: 2rem; display: block; margin: 0 auto; float:right;" alt="photo of a lush garden on a city corner">
-    <h2>Latest...</h2>
 
-    <h2>By Year...</h2>
-    <ul>
-      <li><a href="#">2024</a></li>
-      <li><a href="#">2023</a></li>
-      <li><a href="#">2022</a></li>
-      <li><a href="#">2021</a></li>
-      <li><a href="#">2020</a></li>
-      <li><a href="#">2019</a></li>
-      <li><a href="#">2018</a></li>
-      <li><a href="#">2017</a></li>
-      <li><a href="#">2016</a></li>
-      <li><a href="#">2015</a></li>
-      <li><a href="#">2014</a></li>
-    </ul>
+      <div id="home-welcome">
+      <h2>Welcome</h2>
+        <blockquote>
+            <p style="text-indent: 1rem; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </blockquote>
+      </div>
+<!--- ahh fuck everything ---
+      <div id="home-latest">
+      <h2>Latest...</h2>
+      <menu id="latest-posts">
+        <li><a href="#">Spring 2024 preparations</a></li>
+        <li><a href="#">Automating moisture measurements and irrigation</a></li>
+      </menu>
+      </div>
 
-    <h2>Index of Species &amp; Cultivars</h2>
-    <a href="species.html">Index of Species</a>
+      <div id="home-years">
+        <h2>By Year...</h2>
+        <p><em>Explore the archives</em></p>
+        <menu>
+          <li><a href="#">2024</a></li>
+          <li><a href="#">2023</a></li>
+          <li><a href="#">2022</a></li>
+          <li><a href="#">2021</a></li>
+          <li><a href="#">2020</a></li>
+          <li><a href="#">2019</a></li>
+          <li><a href="#">2018</a></li>
+          <li><a href="#">2017</a></li>
+          <li><a href="#">2016</a></li>
+          <li><a href="#">2015</a></li>
+          <li><a href="#">2014</a></li>
+        </menu>
+      </div>
 
-    <h2>Highlight Gallery</h2>
-    <a href="featured.html">Featured Photos</a>
-    <br />
-    <img src="img/20200603T180547.jpg" alt="moonflower wrapped around a bamboo pole">
-    <img src="img/20200620T193731.jpg" alt="early growth">
+      <div id="home-index">
+      <h2>Index of Species &amp; Cultivars</h2>
+      <p>
+      <a href="species.html">Index of Species</a>
+      </p>
+      </div>
+      --->
+
+      <div id="home-gallery">
+        <h2>Highlight Gallery</h2>
+        <br />
+        <figure>
+          <img src="img/20200603T180547.jpg" alt="moonflower wrapped around a bamboo pole">
+          <figcaption>Moonflower (Ipomea noctiflora) wraps itself around a bambpoo pole</figcaption>
+        </figure>
+        <figure>
+        <img src="img/20200620T193731.jpg" alt="early growth">
+        <figcaption>Everything in place and off to a healthy start in June.</figcaption>
+        </figure>
+        <p style="clear:both; text-align: right;"><a href="featured.html">More Featured Photos...</a></p>
+      </div>
 
     </main>
     <!------------------------------------------------------------------>
