@@ -14,3 +14,7 @@ reference/
 # exclude DS_Store and swapfiles
 *.DS_Store
 *.swp
+*.zip
+*.ttf
+fonts
+fonts/
