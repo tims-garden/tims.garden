@@ -10,6 +10,8 @@ venv/
 # exclude dev references
 reference
 reference/
+dev
+dev/
 
 # exclude DS_Store and swapfiles
 *.DS_Store
