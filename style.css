@@ -138,7 +138,7 @@ main img {
 	max-height: 24rem;
 	max-width: 24rem;
 	border-radius: 0.3rem; 
-	margin: 1rem;
+	margin: 0rem;
 	outline: 0.5px solid #999;
 	border: 0.6rem solid #fff;
 	/*outline: 0.6rem solid #fff;*/
@@ -171,11 +171,11 @@ figcaption {
 	text-align: center;
 	font-family: "IM Fell English"; 
 	font-style: italic;
-	margin: 1.97rem;
-	margin-top:-3.0rem;
+margin: 1.04rem;	
+	margin-top:-2.0rem;
 	border: 0.5px solid #999;
 	border-top: none;
-	padding: 0.6rema
+	padding: 0.4rem;
 }
 
 
